@@ -1,0 +1,171 @@
+/** RESET VALEUR **/
+/** ------------------------------------------- **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** ------------------------------------------- **/
+        /** OPTIONNEL ADD FONT + IMPORT **/
+/** Montserrat-Medium **/
+@font-face {
+    font-family:"Montserrat-medium";
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+/** Myriad-Pro **/
+@font-face {
+    font-family:"Myriad-Pro";
+    src: url("../fonts/Myriad-pro/MYRIADPRO-BOLD.OTF");
+}
+/** ------------------------------------------- **/
+/**                  HEADER                     **/
+/** ------------------------------------------- **/
+/**         HEADER         **/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/** ------------------------------------------- **/
+/**         CONTENEUR 1         **/
+.contenair {
+    background-color: #2c83b3;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    height: 3.3rem;
+}
+/**         SUPNAV          **/
+.supnav {
+    margin-left: 95rem;
+    margin-top: 1rem ;
+}
+/** FONT-SIZE **/
+.supnav li {
+    font-size: 14px;
+    font-family: "Myriad-Pro";
+    display: inline-block;
+}
+.supnav li:first-child{ 
+    background-color: #75cfff;
+    border-radius: 15% 15% 15% 15%;
+    margin-left: 0.938rem;
+    padding: 0.375rem;
+    color: #000000;
+}
+.supnav li:nth-child(2){ 
+    margin-left: 2.188rem;
+}
+.supnav li:nth-child(3){ 
+    margin-left: 2.188rem;
+}
+.supnav li:nth-child(4){ 
+    margin-left: 2.188rem;
+}
+/** ------------------------------------------- **/
+        /**         CONTENEUR 2        **/
+/** ------------------------------------------- **/
+/** DEPLACEMENT LOGO **/
+.logo {
+    margin-left: 34.5rem;
+    padding-top: 1.5rem;
+    font-size: 35px;
+    width: 15rem;
+    height: 2rem;
+    font-family: "Myriad-Pro";
+    font-size: 40px;
+}
+/** COLOR+FONT-SIZE LOGO **/
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/** COLOR+FONT-SIZE SPAN CLASS **/
+.group {
+    font-size: 1.5rem;
+}
+/**  SUBNAV  **/
+.contenair-nav {
+    background-color: #254261;
+    color: #ffffff;
+    height: 6rem;
+}
+/** A LA LIGNE **/
+.contenair-nav .subnav li{
+    display: inline-block;
+}
+/** DEPLACEMENT SUBNAV + FONT **/
+.subnav {
+    margin-left: 67.5em;;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    font-family: "Myriad-Pro";
+}
+/** ESPACEMENT **/
+.subnav li a{
+    margin-left: 2.75rem; 
+}
+/** ------------------------------------------- **/
+/**                    MAIN                     **/
+/** ------------------------------------------- **/
+/** BACKGROUND IMG **/
+body {
+    background-image: 
+    url(../images/train.jpg),
+    url(../images/avion.jpg),
+    url(../images/camion.jpg);
+    background-size: 
+    45% 140%,
+    45% 140%,
+    45% 140%;
+    background-position: 
+    0rem 0rem,
+    top center,
+    top right;
+    background-repeat: no-repeat;
+}
+/**-------------------------------------------**/
+/**                    ROW                     **/
+/**-------------------------------------------**/
+/** COLOR WHITE **/
+.row ,a{
+    color: #ffffff;
+}
+/** MAIN HAUTEUR **/
+.contenair-main {
+    height: 20rem;
+}
+/** COULEUR MAIN **/
+body {
+    background-color: #254261;
+}
+/** TITRE PRINCIPAL **/
+.titreprincipal{
+    margin-left: 34.5rem;
+    margin-top: 20rem;
+    font-size: 37px;
+    font-family: "Montserrat-medium";
+}
+/** DESCRIPTION **/
+.explication {
+    margin-left: 34.5rem;
+    margin-top: 2.313rem;
+    font-family: "Myriad-Pro";
+    font-size: 18px;
+    line-height: 30px;
+    width: 35rem;
+}
+/** ARTICLE **/
+.article {
+    margin-left: 34.5rem;
+    margin-top: 3rem;
+    font-family: "Myriad-Pro";
+    font-size: 18px;
+    border-bottom: solid 2px #d8810f;
+    width: 7rem;   
+}
+/** DELETE LINE BOTTOM **/
+.article a {
+    text-decoration: solid;  
+}
+/** ------------------------------------------- **/
